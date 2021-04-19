@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/" >
+        <file>digital-clock.svg</file>
+
+    </qresource>
+</RCC>
