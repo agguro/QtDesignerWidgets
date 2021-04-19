@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/">
+        <file>analog-clock.png</file>
+    </qresource>
+</RCC>
