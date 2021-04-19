@@ -41,7 +41,7 @@ QString DigitalClockPlugin::group() const
 
 QIcon DigitalClockPlugin::icon() const
 {
-    return QIcon(QLatin1String(":/digital-clock.svg"));
+    return QIcon(QLatin1String(":/digital-clock.png"));
 }
 
 QString DigitalClockPlugin::toolTip() const

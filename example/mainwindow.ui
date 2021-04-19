@@ -14,11 +14,27 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="DigitalClock" name="digitalClock">
+    <property name="geometry">
+     <rect>
+      <x>100</x>
+      <y>400</y>
+      <width>200</width>
+      <height>100</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>The current time</string>
+    </property>
+    <property name="whatsThis">
+     <string>The digital clock widget displays the current time.</string>
+    </property>
+   </widget>
    <widget class="AnalogClock" name="analogClock">
     <property name="geometry">
      <rect>
-      <x>140</x>
-      <y>140</y>
+      <x>100</x>
+      <y>260</y>
       <width>100</width>
       <height>100</height>
      </rect>
@@ -28,22 +44,6 @@
     </property>
     <property name="whatsThis">
      <string>The analog clock widget displays the current time.</string>
-    </property>
-   </widget>
-   <widget class="DigitalClock" name="digitalClock">
-    <property name="geometry">
-     <rect>
-      <x>140</x>
-      <y>340</y>
-      <width>71</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="toolTip">
-     <string>The current time</string>
-    </property>
-    <property name="whatsThis">
-     <string>The digital clock widget displays the current time.</string>
     </property>
    </widget>
   </widget>
